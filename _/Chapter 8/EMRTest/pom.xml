@@ -1,0 +1,15 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <name>Elastic Map Reduce Test</name>
+    <groupId>com.packtpub</groupId>
+    <artifactId>mongo-hadoop-emr-test</artifactId>
+    <version>1.0</version>
+    <packaging>jar</packaging>
+    <dependencies>
+        <dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk</artifactId>
+			<version>1.7.11</version>
+		</dependency>
+    </dependencies>
+</project>

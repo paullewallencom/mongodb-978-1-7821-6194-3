@@ -1,0 +1,14 @@
+cd %~dp0
+rmdir /s assembly-temp
+rm mongo-hadoop-emr-assembly.jar
+mkdir assembly-temp
+cd assembly-temp
+cp ../*.jar .
+jar -xvf mongo-hadoop-core-1.2.1-SNAPSHOT-hadoop_2.4.jar
+jar -xvf mongo-hadoop-mapreduce-test-1.0.jar
+jar -xvf mongo-java-driver-2.12.2.jar
+rm *.jar
+cd ..
+jar -cvf mongo-hadoop-emr-assembly.jar -C assembly-temp/ .
+rmdir /s assembly-temp
+

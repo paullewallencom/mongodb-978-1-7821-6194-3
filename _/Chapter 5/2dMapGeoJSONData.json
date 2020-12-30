@@ -1,0 +1,26 @@
+{"_id":1, "name":"White Street", "type":"B", co:{type:"Point", "coordinates" :[4, 23]}}
+{"_id":2, "name":"Al's Pizza", "type":"R", co:{type:"Point", "coordinates" :[12, 23]}}
+{"_id":3, "name":"Central Avenue", "type":"B", co:{type:"Point", "coordinates" :[18, 23]}}
+{"_id":4, "name":"West bank hospital", "type":"H", co:{type:"Point", "coordinates" :[24, 23]}}
+{"_id":5, "name":"River Park", "type":"G", co:{type:"Point", "coordinates" :[2, 22]}}
+{"_id":6, "name":"China Town authentic chinese", "type":"R", co:{type:"Point", "coordinates" :[22, 21]}}
+{"_id":7, "name":"23 Downtown", "type":"B", co:{type:"Point", "coordinates" :[4, 17]}}
+{"_id":8, "name":"24 Downtown", "type":"B", co:{type:"Point", "coordinates" :[13, 17]}}
+{"_id":9, "name":"25 Downtown", "type":"B", co:{type:"Point", "coordinates" :[21, 17]}}
+{"_id":10, "name":"Downtown hospital", "type":"H", co:{type:"Point", "coordinates" :[8, 15]}}
+{"_id":11, "name":"Donalds Burgers, Downtown", "type":"R", co:{type:"Point", "coordinates" :[12, 14]}}
+{"_id":12, "name":"Pablo's, authentic mexican", "type":"R", co:{type:"Point", "coordinates" :[2, 13]}}
+{"_id":13, "name":"East park", "type":"G", co:{type:"Point", "coordinates" :[23, 12]}}
+{"_id":14, "name":"West street", "type":"B", co:{type:"Point", "coordinates" :[4, 11]}}
+{"_id":15, "name":"Central Park", "type":"G", co:{type:"Point", "coordinates" :[13, 11]}}
+{"_id":16, "name":"Taj Indian dining", "type":"R", co:{type:"Point", "coordinates" :[16, 11]}}
+{"_id":17, "name":"Little India", "type":"B", co:{type:"Point", "coordinates" :[19, 11]}}
+{"_id":18, "name":"Taste of India", "type":"R", co:{type:"Point", "coordinates" :[24, 7]}}
+{"_id":19, "name":"Sal's Fried Chicken", "type":"R", co:{type:"Point", "coordinates" :[2, 6]}}
+{"_id":20, "name":"Sam's Italian", "type":"R", co:{type:"Point", "coordinates" :[17, 6]}}
+{"_id":21, "name":"Donald's Burgers, South Street", "type":"R", co:{type:"Point", "coordinates" :[10, 5]}}
+{"_id":22, "name":"Pickens park", "type":"G", co:{type:"Point", "coordinates" :[1, 2]}}
+{"_id":23, "name":"South Street", "type":"B", co:{type:"Point", "coordinates" :[6, 2]}}
+{"_id":24, "name":"Riverdale public hospital", "type":"H", co:{type:"Point", "coordinates" :[14, 2]}}
+{"_id":25, "name":"Queen's street", "type":"B", co:{type:"Point", "coordinates" :[19, 2]}}
+{"_id":26, "name":"Al's Pizza, South Street", "type":"R", co:{type:"Point", "coordinates" :[10, 1]}}

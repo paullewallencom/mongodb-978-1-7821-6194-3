@@ -1,0 +1,20 @@
+#!/bin/bash 
+script=$(readlink -f "$0")
+scriptdir=$(dirname "$script")
+curr=$(pwd)
+cd $scriptdir
+rm -rf assembly-temp
+rm -rf mongo-hadoop-emr-assembly.jar
+mkdir assembly-temp
+cd assembly-temp
+cp ../*.jar .
+jar -xvf mongo-hadoop-core-1.2.1-SNAPSHOT-hadoop_2.4.jar
+jar -xvf mongo-hadoop-mapreduce-test-1.0.jar
+jar -xvf mongo-java-driver-2.12.2.jar
+rm *.jar
+cd ..
+jar -cvf mongo-hadoop-emr-assembly.jar -C assembly-temp/ .
+rm -rf assembly-temp
+cd $curr
+
+
